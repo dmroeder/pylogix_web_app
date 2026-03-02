@@ -13,6 +13,6 @@ a web page using streamlit.
 * Edit PLC_IP and TAGS in config.py
 * Run the app: ```streamlit run app.py```
 
-Streamlit should launch the web page for you, if not, you can navigate to http//:localhost:8501
+Streamlit should launch the web page for you, if not, you can navigate to http://localhost:8501
 
 You can stop streamlit with CTRL+C
