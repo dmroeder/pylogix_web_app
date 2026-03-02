@@ -2,6 +2,8 @@
 A simple example of reading tags from a Rockwell PLC using pylogix and displaying them on
 a web page using streamlit.
 
+![Screenshot](screenshot.png)
+
 ## Setup
 * Clone this repository
 * Convert it to a virtual environment: ```python -m venv pylogix_web_app```
