@@ -5,6 +5,8 @@ a web page using streamlit.
 ## Setup
 * Clone this repository
 * Convert it to a virtual environment: ```python -m venv pylogix_web_app```
+* Open PowerShell/Terminal in pylogix_web_app directory
+* Activate venv ```./Scripts/activate```
 * Install the requirements: ```pip install -r requirements.txt```
 * Edit the PLC_IP and TAGS in app.py
 * Run the app: ```streamlit run app.py```
