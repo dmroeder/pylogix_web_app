@@ -11,14 +11,14 @@ st.title("PLC Tag Monitor")
 
 placeholder = st.empty()
 
-with pylogix.PLC(config.PLC_IP) as comm:
+with pylogix.PLC(config.PLC_IP, config.PLC_SLOT) as comm:
     while True:
         results = comm.Read(config.TAGS)
         data = []
         for result in results:
             data.append({"Tag":result.TagName,
                         "Value":result.Value})
-            
+
         with placeholder.container():
             st.table(data)
 

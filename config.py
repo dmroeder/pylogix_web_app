@@ -1,7 +1,8 @@
 
 # IP address of PLC
 PLC_IP = "192.168.1.10"
-
+# PLC slot location
+PLC_SLOT = 0
 # tag list to display in web table
 TAGS = ["LightCurtain.Beam_Intensity_MedHigh",
         "LightCurtain.Beam_Intensity_Total"]
