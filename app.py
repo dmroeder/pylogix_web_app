@@ -17,7 +17,8 @@ with pylogix.PLC(config.PLC_IP, config.PLC_SLOT) as comm:
         data = []
         for result in results:
             data.append({"Tag":result.TagName,
-                        "Value":result.Value})
+                        "Value":result.Value,
+                        "Status":result.Status})
 
         with placeholder.container():
             st.table(data)
