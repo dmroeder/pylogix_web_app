@@ -5,7 +5,7 @@ a web page using streamlit.
 ![Screenshot](screenshot.png)
 
 ## Setup
-* Clone this repository
+* Clone this repository ```git clone https://github.com/dmroeder/pylogix_web_app.git```
 * Convert it to a virtual environment: ```python -m venv pylogix_web_app```
 * Open PowerShell/Terminal in pylogix_web_app directory
 * Activate venv ```./Scripts/activate```
