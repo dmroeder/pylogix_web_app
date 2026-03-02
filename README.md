@@ -8,7 +8,7 @@ a web page using streamlit.
 * Open PowerShell/Terminal in pylogix_web_app directory
 * Activate venv ```./Scripts/activate```
 * Install the requirements: ```pip install -r requirements.txt```
-* Edit the PLC_IP and TAGS in app.py
+* Edit PLC_IP and TAGS variables in app.py
 * Run the app: ```streamlit run app.py```
 
 Streamlit should launch the web page for you, if not, you can navigate to http//:localhost:8501
