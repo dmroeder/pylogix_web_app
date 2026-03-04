@@ -1,2 +1,3 @@
 pylogix
 streamlit
+altair<5
